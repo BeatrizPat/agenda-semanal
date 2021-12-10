@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+"name":"Agenda",
+"version":"0.1",
+"author":"BeatzPs",
+"description":"Agenda simples para organizar tarefas/aulas fixas semanais.",
+"icons":{"16" :"icon3.png",
+        "48" : "icon3.png",
+        "128" : "icon3.png"},
+
+"browser_action": {
+    "default_title":"Agenda",
+    "default_popup":"index.html"
+}
+}

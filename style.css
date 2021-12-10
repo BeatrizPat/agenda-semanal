@@ -1,0 +1,111 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    align-content: center;
+    background: lightseagreen;
+}
+.agenda {
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    background: white;
+}
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase ;
+    text-align: center;
+    margin-top: 0;
+}
+table {
+    margin: auto;
+    text-align: center;
+}
+.head-tabela {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+th {
+    margin-left: 5px;
+}
+.body-tabela {
+    text-align: center;
+    font-size: 13px;
+}
+td {
+    margin-top: 10px;
+}
+.body-tabela button {
+    background: #9ACFDD;
+    border: none;
+    border-radius: 2em;
+    width: 70px;
+    height: 35px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.body-tabela button:hover {
+    background: #F5E056;
+    border: none;
+    border-radius: 2em;
+    width: 70px;
+    height: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.body-tabela div {
+    margin: 5px 5px;
+}
+
+/*preencher com os horários*/
+#seg-manha button:hover:after {
+    content: " 8h-12h";
+}
+#ter-manha button:hover:after {
+    content: " 10h-12h";
+}
+#qua-manha button:hover:after {
+    content: " 10h-12h";
+}
+/*
+#qui-manha button:hover:after {
+}*/
+#sex-manha button:hover:after {
+    content: " 10h-12h";
+}
+
+
+#seg-tarde button:hover:after {
+    content: " 14h-18h";
+}
+/*#ter-tarde button:hover:after {
+    content: " horário";
+}
+#qua-tarde button:hover:after {
+    content: " horário";
+}*/
+#qui-tarde button:hover:after {
+    content: " 16h-18h";
+}
+#sex-tarde button:hover:after {
+    content: " 14h-18h";
+}
+
+
+/*#seg-noite button:hover:after {
+    content: " horário";
+}
+#ter-noite button:hover:after {
+    content: " horário";
+}
+#qua-noite button:hover:after {
+    content: " horário";
+}
+#qui-noite button:hover:after {
+    content: " horário";
+}*/
+#sex-noite button:hover:after {
+    content: " 21h-23h";
+}
+
